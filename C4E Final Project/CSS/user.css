@@ -1,0 +1,194 @@
+.header {
+    width: 100%;
+    height: 8%;
+    padding: 0% 15% 0% 15%;
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+    background: black;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.header>.content {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header>.content>.champions {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.header>.content>.news>a {
+    color: white;
+}
+
+.header>.icon {
+    height: 100%;
+    width: auto;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.icon>img {
+    width: auto;
+    height: 80%;
+}
+
+.card-container {
+    padding-top: 50px;
+    background: black;
+    height: 721px;
+}
+
+.container-icon {
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+}
+
+.container-icon img {
+    height: 50%;
+    display: inherit;
+}
+
+.white-card {
+    background-color: white;
+    width: 500px;
+    /* position: relative; */
+    /* top: 20%; */
+    /* left: 30%; */
+    text-align: -webkit-center;
+    height: 50%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.card-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer>.block_1 {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    position: inherit;
+}
+
+.footer>.block_1>.riot_game {
+    height: 100%;
+}
+
+.footer>.block_1>.riot_game>img {
+    height: 100%;
+    width: auto;
+}
+
+.footer>.block_1>.garena {
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer>.block_1>.garena>img {
+    height: 100%;
+    width: auto;
+}
+
+.footer>.block_1>.vn_esport {
+    height: 100%;
+}
+
+.footer>.block_1>.vn_esport>img {
+    height: 100%;
+    width: auto;
+}
+
+.header>.icon>a {
+    height: 100%;
+    width: auto;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>.block_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer>.block_3 {
+    margin-bottom: 30px;
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer>.block_3>.block_3_left {
+    margin-right: 5%;
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+
+.footer>.block_3>.block_3_right {
+    height: auto;
+    width: 300px;
+    background: rgb(183, 233, 233);
+}
+
+.footer>.block_3>.block_3_left>.content {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer>.block_3>.block_3_right>.content {
+    font-weight: bold;
+    font-size: 18px;
+}
